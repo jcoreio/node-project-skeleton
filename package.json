@@ -20,6 +20,7 @@
     "test:debug": "cross-env NODE_ENV=production BABEL_ENV=test mocha --inspect-brk $npm_package_config_mocha",
     "coverage": "cross-env NODE_ENV=production BABEL_ENV=coverage nyc --reporter=lcov --reporter=text mocha $npm_package_config_mocha",
     "codecov": "nyc report --reporter=text-lcov > coverage.lcov; codecov",
+    "prepare": "npm run lint:fix && npm run prettier && flow && npm run test",
     "prepublishOnly": "npm run clean && npm run prettier:check && npm run lint && flow && npm run coverage && npm run build",
     "open:coverage": "open coverage/lcov-report/index.html",
     "semantic-release": "semantic-release"
