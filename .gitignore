@@ -1,8 +1,6 @@
-coverage
+/coverage
+.eslintcache
 .idea
+/lib
 .nyc_output
 node_modules
-.eslintcache
-/*.js
-/*.js.flow
-!/.babelrc.js
