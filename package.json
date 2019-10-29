@@ -90,7 +90,7 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/register": "^7.0.0",
     "@babel/runtime": "^7.5.5",
-    "@commitlint/cli": "^6.0.2",
+    "@commitlint/cli": "^8.2.0",
     "@jcoreio/commitlint-config": "^1.1.0",
     "@jedwards1211/eslint-config": "^2.0.0",
     "@jedwards1211/eslint-config-flow": "^1.0.2",
